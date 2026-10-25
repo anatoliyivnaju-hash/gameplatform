@@ -74,3 +74,192 @@ body{
     border: none;
     
 }
+
+.section2 {
+    /* padding-top: 37px; */
+    display: flex;
+    /* background-color: #101010; */
+    
+}
+
+.arrow {
+    border: none;
+    background-color: #101010;
+    margin-left: 26px;
+}
+
+.red {
+    color: #FF4040;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  margin-left: 98px;
+  
+}
+
+.maintext {
+    color: #C4C4C4;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  margin-left: 98px;
+  margin-top: 16px;
+  margin-bottom: 76px;
+  margin-right: 27px;
+  font-size: 20px;
+}
+.title {
+color: white;
+font-family: "Antonio", sans-serif;
+font-optical-sizing: auto;
+font-weight: bold;
+font-style: normal;
+margin-left: 98px;
+font-size: 64px;
+letter-spacing: 6%;
+line-height: 130%;
+width: 430px;
+}
+
+.btns2 {
+    display: flex;
+    margin-left: 98px;
+    gap: 34px;
+}
+.btn1 {
+    border: none;
+    background-color: #FF4040;
+    color: white;
+    padding: 18px 26px;
+    border-radius: 5px;
+}
+
+.btn2 {
+    border: none;
+    background-color: #101010;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+}
+
+.heroTextInfo {
+    margin-top: 37px;
+}
+
+.ab {
+    background-color: #101010;
+    /* padding-top: 37px; */
+}
+
+
+/* 
+по зміннам:
+
+в тебе був задній колір на дів з классом section2, 
+я додав задній колір саме секшн з классом ab а також додав класс 
+з основним текстом в цій секції, ось цей класс heroTextInfo,
+і вже на нього застосував марджин топ */
+
+
+.part1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.a {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: semibold;
+  font-style: normal;
+  margin-left: 26px;
+}
+
+.b {
+    color: #FF4040;
+        text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  margin-right: 16px;
+}
+.news {
+    display: flex;
+    gap: 33px;
+    margin-top: 26px;
+     margin-left: 26px ;
+    margin-right: 25px ;
+    justify-content: space-between;
+
+}
+.new {
+    background-color: #101010;
+    height: 340px;
+    width: 441px;
+}
+.eurotruck {
+
+}
+.t1 {
+    color: white;
+    font-family: "Antonio", sans-serif;
+font-optical-sizing: auto;
+font-weight: bold;
+font-style: normal;
+ letter-spacing: 6%;
+  line-height: 130%;
+
+
+}
+.t2 {
+    color: #C4C4C4;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+ 
+
+}
+
+.t3 {
+color: white;
+    font-family: "Antonio", sans-serif;
+font-optical-sizing: auto;
+font-weight: bold;
+font-style: normal;
+ letter-spacing: 6%;
+  line-height: 130%;
+}
+.t4 {
+color: #C4C4C4;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+}
+
+.t5 {
+color: white;
+    font-family: "Antonio", sans-serif;
+font-optical-sizing: auto;
+font-weight: bold;
+font-style: normal;
+ letter-spacing: 6%;
+  line-height: 130%;
+}
+
+.t6 {
+    color: #C4C4C4;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+}
