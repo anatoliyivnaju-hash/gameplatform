@@ -67,11 +67,29 @@ body{
     font-optical-sizing: auto;
     font-weight: medium;
     font-style: normal;
+    cursor: pointer;
+    transition: all .8s;
 }
 
+.login:hover{
+    background-color: #FF4040;
+}
+.btn1:hover {
+    background-color: #101010;
+    border: none;
+    outline: 1px solid white;
+}
+
+.game:hover{
+scale: 1.1;
+}
+.abc:hover{
+    scale: 1.1;
+}
 .nav {
     background-color: black;
     border: none;
+    cursor: pointer;
     
 }
 
@@ -130,10 +148,13 @@ width: 430px;
 }
 .btn1 {
     border: none;
+    outline: 1px solid #FF4040;
     background-color: #FF4040;
     color: white;
     padding: 18px 26px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all .8s;
 }
 
 .btn2 {
@@ -147,6 +168,7 @@ width: 430px;
   font-optical-sizing: auto;
   font-weight: medium;
   font-style: normal;
+  cursor:pointer;
 }
 
 .heroTextInfo {
@@ -190,6 +212,7 @@ width: 430px;
   font-weight: medium;
   font-style: normal;
   margin-right: 16px;
+  cursor: pointer;
 }
 .news {
     display: flex;
@@ -269,10 +292,12 @@ font-style: normal;
   font-style: normal;
   margin-left: 7px;
   margin-top: 9px;
+  
 
 }
 .abc {
     position: relative;
+    transition: all 0,2s;
 }
 .redsign {
     color: #FF4040;
@@ -311,6 +336,7 @@ color: white;
   font-weight: medium;
   font-style: normal;
   margin-right: 16px;
+  cursor: pointer;
 }
 .games {
     display: flex;
@@ -330,6 +356,7 @@ color: white;
   color: white;
   margin-left: 8px;
   margin-top: 7px;
+  cursor: pointer;
 
 }
 
@@ -338,6 +365,7 @@ color: white;
     height: 290px;
     width: 197px;
     position: relative;
+    transition: all 0.2s;
 }
 .rating {
 color: #FF4040;
@@ -364,6 +392,7 @@ font-family: "Montserrat", sans-serif;
     margin-right: 102px;
     margin-left: 102px;
     margin-top: 67px;
+    margin-bottom: 40px;
 }
 .maintxt {
     color: white;
@@ -379,4 +408,11 @@ font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: medium;
   font-style: normal;
+}
+.det {
+    display: flex;
+    align-items: center;
+}
+.idk {
+    margin-left: 8px;
 }
