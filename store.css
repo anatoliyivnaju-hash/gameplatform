@@ -1,0 +1,157 @@
+/* .montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+/* .antonio-<uniquifier> {
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: black;
+}.header_containers {
+    width: 1267px;
+    margin: 0 auto;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    height: 130px;
+}
+.navigation {
+    display: flex;
+    gap: 44px;
+    margin-left: 68px;
+    margin-right: 77px;
+    
+}
+
+.unselected{
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+
+}
+.selected {
+    color: #FF4040;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.login {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 23px 21px;
+    outline: 1px solid #FF4040;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    cursor: pointer;
+    transition: all .8s;
+}
+.nav {
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.sale {
+    display: flex;
+    justify-content: space-between;
+
+}
+.gamesale {
+color: white;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  margin-left: 41px;
+
+}
+.showall {
+    text-decoration: none;
+    color: #FF4040;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  margin-right: 41px;
+}
+
+.gameonsale {
+    display: flex;
+    align-items: center;
+    background-color: #101010;
+    width: 1355px;
+    height: 240px ;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+.text1 {
+    color: white;
+    font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.text2 {
+    color: #C4C4C4;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 102px;
+    margin-left: 102px;
+    margin-top: 67px;
+    margin-bottom: 40px;
+}
+.maintxt {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  font-size: 24px;
+}
+.txt {
+    color: #C4C4C4;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+}
+.det {
+    display: flex;
+    align-items: center;
+}
+.idk {
+    margin-left: 8px;
+}
